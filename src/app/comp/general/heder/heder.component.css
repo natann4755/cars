@@ -1,0 +1,11 @@
+.bigdiv{
+    display: flex;
+    justify-content: space-between;
+    background: lightskyblue;
+}
+img{
+    height: 12vw;
+}
+app-nav{
+    width: 40%;
+}

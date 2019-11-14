@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ToyotaService } from '../../../toyota.service';
 
 @Component({
   selector: 'app-toyota',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ToyotaComponent implements OnInit {
 
-  constructor() { }
+  constructor(public sertoyota:ToyotaService) { 
+    
+  }
 
   ngOnInit() {
   }

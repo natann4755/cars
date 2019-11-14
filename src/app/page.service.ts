@@ -5,5 +5,9 @@ import { Injectable } from '@angular/core';
 })
 export class PageService {
 
-  constructor() { }
+  public corectpanel = 'toyota'
+  constructor() { 
+    console.log("servpage"+this.corectpanel)
+  }
+
 }

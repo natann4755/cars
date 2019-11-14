@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MazdaService } from '../../../mazda.service';
 
 @Component({
   selector: 'app-mazda',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MazdaComponent implements OnInit {
 
-  constructor() { }
+  constructor(public sermazda:MazdaService) {
+    
+   }
 
   ngOnInit() {
   }
